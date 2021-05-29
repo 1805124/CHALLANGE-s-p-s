@@ -1,0 +1,199 @@
+body
+{
+    background-color: aqua;
+}
+.container
+{
+    border: 2px solid black;
+    display: flex;
+    border-radius: 20px;
+    color: darkgrey;
+    background:darkblue;
+    position: static;
+    justify-content: center;
+    flex-direction: column;
+}
+.con1
+{
+    justify-self: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    position: relative;
+    padding-right: 140px;
+}
+.start
+{
+    margin: 10px;
+    background-color: darkmagenta;
+    border:1px  darkred;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 20px;
+    border:2px solid salmon;
+
+}
+.container i
+{
+    align-self:center;
+    color: salmon;
+    display: flex;
+    cursor: pointer;
+    position: relative;
+    left: -30px;
+    z-index: 1;
+    transition: 0.1s;
+    top: 0px;
+}
+.gmspc 
+{
+    justify-content: center;
+    transition: ease;
+    border: 10px solid black;
+    margin: 10px;
+    border-radius: 20px;
+    flex-direction: column;
+    font-size: 50px;
+    background: rgb(131, 9, 9);
+    transition:3 ease;
+}
+.gmspc:hover
+{
+    background: rgb(207, 2, 2);
+}
+.gmspc i 
+{
+    margin: 10px;
+    position:static;
+    transition:1s ease;
+
+}
+.gmspc .Text
+{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+    font-style:normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: yellow;
+    transition: 3s ease;
+}
+.gmspc .options
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    transition: 3s ease;
+}
+.con1-1
+{
+    align-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: 3s ease;
+}
+.ground
+{
+    height: 500px;
+    border:2px solid black;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position:relative;
+    background: green;
+    transition: 3s ease;
+}
+.fele
+{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    transition: 3s ease;
+}
+.scoreboard
+{
+    font-size: 20px;
+    justify-content: center;
+    height: 50px;
+    width: 500px;
+    justify-content: space-around;
+    display: flex;
+    color:red;
+    background:black;
+    border-radius: 20px;
+    align-items: center;
+    text-align: center;
+    transform: rotate(270deg);
+    position: absolute;
+    border: 2px solid rgb(222, 235, 46);
+    transition: 3s ease;
+
+}
+.anim
+{
+    border:10px solid rgb(255, 248, 248);
+    background: rgb(61, 6, 105);
+    transform:scaleY(2.9);
+    transform: scaleX(1.2);
+    width: 70%;
+    height:70%;
+    display: flex;
+    flex-direction:row ;
+    align-items:center;
+    justify-content: space-around;
+    transition:3s ease;
+}
+.player
+{
+font-size: 200px;
+transform: rotate(90deg);
+transition: 3s ease;
+color: sienna;
+}
+.computer
+{
+    font-size: 200px;
+    transform: rotate(-90deg);
+    transition :3s ease;
+}
+.player i
+{
+    transition: 3s ease;
+    color: sienna;
+}
+.computer i
+{
+    color: tan;
+    transition: 3s ease;
+}
+.con1-1 .start
+{
+    width:100px;
+    height: 50px;
+    
+}
+.con1-1 .start:hover
+{
+    border: 3px solid white;
+    background: tomato;
+}
+.Text
+{
+    font-size: 40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: violet;
+}
+.options .fas
+{
+    border:5px solid transparent;
+    padding: 20px;
+    border-radius: 50%;
+}
+.options .fas:hover
+{
+    border:5px solid rgb(0, 0, 0);
+    background: white;
+}
